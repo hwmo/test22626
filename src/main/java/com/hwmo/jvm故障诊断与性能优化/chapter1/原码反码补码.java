@@ -1,4 +1,4 @@
-package com.hwmo.test.jvm.jvm故障诊断与性能优化.one;
+package com.hwmo.jvm故障诊断与性能优化.chapter1;
 
 public class 原码反码补码 {
 

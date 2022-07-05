@@ -1,19 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b8c60a0-3a7f-4b96-908b-9b35d6753ce7" name="Default Changelist" comment="" />
+    <list default="true" id="9b8c60a0-3a7f-4b96-908b-9b35d6753ce7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter1/原码反码补码.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/SimpleArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwmo/test/jvm/jvm故障诊断与性能优化/one/原码反码补码.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2B7JwTBfS0OarzThSF2BD1D91Gl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32058823" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -35,7 +53,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StatckOverFlowTest">
+  <component name="RunManager" selected="Application.SimpleArgs">
+    <configuration name="原码反码补码" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.test.jvm.jvm故障诊断与性能优化.one.原码反码补码" />
+      <module name="test22626" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwmo.test.jvm.jvm故障诊断与性能优化.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hwmo.test.排序.BubbleSort" />
       <module name="test22626" />
@@ -62,6 +93,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimpleArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter2.SimpleArgs" />
+      <module name="test22626" />
+      <option name="PROGRAM_PARAMETERS" value="aa dd c" />
+      <option name="VM_PARAMETERS" value="-Xmx32m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StatckOverFlowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hwmo.test.jvm.StatckOverFlowTest" />
       <module name="test22626" />
@@ -75,8 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.HeapOutOfMemoryTest" />
+      <item itemvalue="Application.SimpleArgs" />
+      <item itemvalue="Application.StatckOverFlowTest" />
+      <item itemvalue="Application.原码反码补码" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleArgs" />
+        <item itemvalue="Application.原码反码补码" />
         <item itemvalue="Application.StatckOverFlowTest" />
         <item itemvalue="Application.HeapOutOfMemoryTest" />
         <item itemvalue="Application.BubbleSort" />
@@ -94,11 +149,47 @@
       <option name="presentableId" value="Default" />
       <updated>1656251428183</updated>
       <workItem from="1656251432396" duration="1073000" />
-      <workItem from="1656269040412" duration="1215000" />
+      <workItem from="1656269040412" duration="1946000" />
+      <workItem from="1656418511972" duration="115000" />
+      <workItem from="1656502253432" duration="702000" />
+      <workItem from="1656974770824" duration="4022000" />
+      <workItem from="1657023854810" duration="1018000" />
+      <workItem from="1657063966703" duration="1440000" />
     </task>
+    <task id="LOCAL-00001" summary="JVM中整型用补码表示">
+      <created>1657025385861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657025385861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="JVM补码" />
+    <MESSAGE value="JVM中整型用补码表示" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM中整型用补码表示" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test22626$SimpleArgs.ic" NAME="SimpleArgs Coverage Results" MODIFIED="1657065241959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hwmo.jvm故障诊断与性能优化.chapter2.*</FILTER>
+    </SUITE>
   </component>
 </project>
