@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b8c60a0-3a7f-4b96-908b-9b35d6753ce7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter1/原码反码补码.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/SimpleArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/AllocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/CglibBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/OnStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/PermTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/SimpleHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/TestGC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter2/TestStackDeep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter3/AcessDirectBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter3/AllocDirectBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter3/DumpOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter3/HeapAlloc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter4/CanReliveObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hwmo/jvm故障诊断与性能优化/chapter4/SoftRef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hwmo/test/jvm/jvm故障诊断与性能优化/one/原码反码补码.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +42,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.32058823" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -40,6 +52,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspaces\ideas\test22626\src\test\java" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="CanReliveObj" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -53,13 +70,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimpleArgs">
-    <configuration name="原码反码补码" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwmo.test.jvm.jvm故障诊断与性能优化.one.原码反码补码" />
+  <component name="RunManager" selected="Application.SoftRef">
+    <configuration name="AcessDirectBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter3.AcessDirectBuffer" />
       <module name="test22626" />
+      <option name="VM_PARAMETERS" value="-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hwmo.test.jvm.jvm故障诊断与性能优化.one.*" />
+          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwmo.test.排序.BubbleSort" />
+    <configuration name="AllocDirectBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter3.AllocDirectBuffer" />
       <module name="test22626" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hwmo.test.排序.*" />
+          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapOutOfMemoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwmo.test.jvm.HeapOutOfMemoryTest" />
+    <configuration name="CanReliveObj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter4.CanReliveObj" />
       <module name="test22626" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hwmo.test.jvm.*" />
+          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,14 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter2.SimpleArgs" />
+    <configuration name="DumpOOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter3.DumpOOM" />
       <module name="test22626" />
-      <option name="PROGRAM_PARAMETERS" value="aa dd c" />
-      <option name="VM_PARAMETERS" value="-Xmx32m" />
+      <option name="VM_PARAMETERS" value="-Xms20m -Xmx20m &quot;-XX:OnOutOfMemoryError=D:/Program Files/jdk8/jdk1.8.0_65/printstack.bat %p&quot; -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=log/a1.dump" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter2.*" />
+          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatckOverFlowTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hwmo.test.jvm.StatckOverFlowTest" />
+    <configuration name="SoftRef" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hwmo.jvm故障诊断与性能优化.chapter4.SoftRef" />
       <module name="test22626" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hwmo.test.jvm.*" />
+          <option name="PATTERN" value="com.hwmo.jvm故障诊断与性能优化.chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BubbleSort" />
-      <item itemvalue="Application.HeapOutOfMemoryTest" />
-      <item itemvalue="Application.SimpleArgs" />
-      <item itemvalue="Application.StatckOverFlowTest" />
-      <item itemvalue="Application.原码反码补码" />
+      <item itemvalue="Application.DumpOOM" />
+      <item itemvalue="Application.AcessDirectBuffer" />
+      <item itemvalue="Application.AllocDirectBuffer" />
+      <item itemvalue="Application.CanReliveObj" />
+      <item itemvalue="Application.SoftRef" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SimpleArgs" />
-        <item itemvalue="Application.原码反码补码" />
-        <item itemvalue="Application.StatckOverFlowTest" />
-        <item itemvalue="Application.HeapOutOfMemoryTest" />
-        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SoftRef" />
+        <item itemvalue="Application.CanReliveObj" />
+        <item itemvalue="Application.AllocDirectBuffer" />
+        <item itemvalue="Application.AcessDirectBuffer" />
+        <item itemvalue="Application.DumpOOM" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +174,12 @@
       <workItem from="1656502253432" duration="702000" />
       <workItem from="1656974770824" duration="4022000" />
       <workItem from="1657023854810" duration="1018000" />
-      <workItem from="1657063966703" duration="1440000" />
+      <workItem from="1657063966703" duration="1587000" />
+      <workItem from="1657149065907" duration="2281000" />
+      <workItem from="1657193373190" duration="5146000" />
+      <workItem from="1657200673943" duration="1465000" />
+      <workItem from="1657326642604" duration="14434000" />
+      <workItem from="1657440680201" duration="3335000" />
     </task>
     <task id="LOCAL-00001" summary="JVM中整型用补码表示">
       <created>1657025385861</created>
@@ -163,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657025385861</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-Xmx参数调试">
+      <created>1657065543329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657065543329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,11 +217,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JVM补码" />
     <MESSAGE value="JVM中整型用补码表示" />
-    <option name="LAST_COMMIT_MESSAGE" value="JVM中整型用补码表示" />
+    <MESSAGE value="-Xmx参数调试" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Xmx参数调试" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/test22626$SimpleArgs.ic" NAME="SimpleArgs Coverage Results" MODIFIED="1657065241959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hwmo.jvm故障诊断与性能优化.chapter2.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/test22626$SoftRef.ic" NAME="SoftRef Coverage Results" MODIFIED="1657448457272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hwmo.jvm故障诊断与性能优化.chapter4.*</FILTER>
     </SUITE>
   </component>
 </project>
