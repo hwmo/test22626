@@ -14,6 +14,7 @@ public class HashCodeStr {
             System.out.println(s.hashCode());
             map.put(s,s);
         }
+        System.out.println(map);
     }
 
 }
