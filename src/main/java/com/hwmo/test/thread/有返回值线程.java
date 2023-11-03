@@ -12,6 +12,9 @@ public class 有返回值线程 {
         int taskSize = 5;
         List<Future> list = new ArrayList<Future>();
         ExecutorService service = Executors.newCachedThreadPool();
+        ExecutorService fixedservice = Executors.newFixedThreadPool(3);
+        ExecutorService singleservice = Executors.newSingleThreadExecutor();
+        ExecutorService sheduleservice = Executors.newSingleThreadExecutor();
         for(int i = 0; i < taskSize; i++){
 
 

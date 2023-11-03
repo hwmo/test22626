@@ -8,7 +8,7 @@ public class ReflectTest {
         Class class2 = A.class;
 
         Class class3 = Class.forName("com.hwmo.test.反射.A");
-
+        System.out.println(class1);
         System.out.println(class1 == class2);
 
         System.out.println(class1 == class3);

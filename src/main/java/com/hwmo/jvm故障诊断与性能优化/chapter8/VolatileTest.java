@@ -15,13 +15,14 @@ public class VolatileTest {
             int i = 0;
             while (!stop) {
                 i++;
-//                try {
-//                    Thread.sleep(500);
-//                } catch (InterruptedException e) {
-//                    e.printStackTrace();
-//                }
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
             System.out.println("MyThread stop!");
+            System.out.println("------------i: "+i);
         }
     }
     public static class MyThread2 extends Thread{
@@ -41,6 +42,7 @@ public class VolatileTest {
                 i++;
             }
             System.out.println("MyThread2 stop!");
+            System.out.println("------------i: "+i);
         }
     }
 

@@ -15,8 +15,8 @@ public class TestStackDeep {
     }
     public static void main(String[] args) {
         try {
-//            recursion();//栈默认大小为1m
-            recursion(1,1,1);//栈默认大小为1m
+            recursion();//栈默认大小为1m
+           // recursion(1,1,1);//栈默认大小为1m
         }catch (Throwable e){
             System.out.println("deep of calling1: "+count);
             e.printStackTrace();

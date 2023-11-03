@@ -8,10 +8,11 @@ public class AllocationTest {
         System.out.println("free heap: "+Runtime.getRuntime().freeMemory()/1024/1024);
         System.out.println("max heap: "+Runtime.getRuntime().maxMemory()/1024/1024);
 
+        hello2();
+        hello3();
+        hello4();
+        hello5();
         hello1();
-
-
-
     }
 
     public static void hello1(){

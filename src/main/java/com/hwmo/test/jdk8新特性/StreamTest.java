@@ -24,7 +24,7 @@ public class StreamTest {
 
         long count = intList.stream().count();
         System.out.println(count);
-
+        System.out.println(intList.stream().filter(x -> x > 7).collect(Collectors.toList()).size());
     }
 }
 

@@ -9,7 +9,7 @@ public class CanReliveObj {
         obj = null;
         System.out.println("第1次GC");
         System.gc();
-        Thread.sleep(1000);
+        Thread.sleep(1000);//休眠一秒，为了让对象复活
         if (obj == null) {
             System.out.println("obj is null");
         }else {
